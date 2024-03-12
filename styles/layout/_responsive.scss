@@ -1,0 +1,226 @@
+//@media screen and (min-width: 1960px) {
+//    .layout-main, .landing-wrapper {
+//        width: 1504px;
+//        margin-left: auto !important;
+//        margin-right: auto !important;
+//    }
+//}
+
+@media (min-width: 992px) {
+  .layout-wrapper {
+    &.layout-overlay {
+      .layout-main-container {
+        margin-left: 20px;
+        padding-left: 2rem;
+      }
+
+      .layout-sidebar {
+        transform: translateX(-100%);
+        left: 0;
+        top: 0;
+        height: 100vh;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        z-index: 999;
+      }
+
+      &.layout-overlay-active {
+        .layout-sidebar {
+          transform: translateX(0);
+        }
+      }
+    }
+
+    &.layout-static {
+      .layout-main-container {
+        margin-left: 300px;
+      }
+
+      &.layout-static-inactive {
+        .layout-sidebar {
+          transform: translateX(-100%);
+          z-index: 999;
+          left: 20px;
+
+          &.show {
+            left: 0;
+            transform: translate(0, 0);
+          }
+        }
+
+        .layout-main-container {
+          margin-left: 20px;
+          padding-left: 2rem;
+        }
+
+        .layout-sidebar .css-button-menu {
+          transform: rotate(0deg);
+          opacity: 1;
+        }
+      }
+    }
+
+    .layout-mask {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .blocked-scroll {
+    overflow: hidden;
+  }
+
+  .layout-wrapper {
+    .layout-main-container {
+      margin-left: 0;
+      padding-left: 2rem;
+    }
+
+    .layout-sidebar {
+      transform: translateX(-100%);
+      left: 0;
+      top: 0;
+      height: 100vh;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      z-index: 999;
+    }
+
+    .layout-mask {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 998;
+      width: 100%;
+      height: 100%;
+      background-color: var(--maskbg);
+    }
+
+    &.layout-mobile-active {
+      .layout-sidebar {
+        transform: translateX(0);
+      }
+
+      .layout-mask {
+        display: block;
+        animation: fadein $transitionDuration;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1196px) and (max-width: 1766px) {
+  .index-homepage .card-search-recruitment .p-dataview {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  h1.fs-80 {
+    font-size: 64px !important;
+  }
+}
+
+@media (max-width: 1670px) {
+
+  .filter-candidate,
+  .index-homepage .search-recruitment {
+    padding-top: 0px !important;
+    width: 75% !important;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1366px) {
+
+  .filter-candidate,
+  .index-homepage .search-recruitment {
+    width: 85% !important;
+  }
+
+  .layout-wrapper:not(.layout-static-inactive) {
+    .detail-post {
+      padding: 1.5rem !important;
+    }
+
+    .post-content-detail-post {
+      figure {
+        width: 100% !important;
+        margin: 0 !important;
+      }
+
+      img {
+        max-width: 100% !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 1196px) {
+
+  .filter-candidate,
+  .index-homepage .search-recruitment {
+    width: 100% !important;
+  }
+
+  .post-content-detail-post {
+    figure {
+      width: 100% !important;
+      margin: 0 !important;
+    }
+
+    img {
+      max-width: 100% !important;
+    }
+
+    img,
+    iframe {
+      width: auto !important;
+      height: auto !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .filter-candidate {
+    .input-search-influencers {
+      width: 100% !important;
+      display: block !important;
+    }
+  }
+
+  .search-recruitment {
+    .input-search-recruitment {
+      width: 100% !important;
+      display: block !important;
+    }
+  }
+
+  .css-button-menu,
+  .layout-sidebar .contextualNavigation-shadow {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .filter-candidate {
+    .p-dataview {
+      .p-dataview-header {
+        padding: 1rem;
+      }
+    }
+  }
+
+  .filter-advance {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .item-filter-influencer-ranking {
+    width: 100% !important;
+    padding: 0.5rem 0 0 0;
+  }
+}

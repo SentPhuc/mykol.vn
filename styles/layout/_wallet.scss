@@ -1,0 +1,41 @@
+#page-wallet {
+    .container {
+        max-width: 1060px;
+
+        .title-wallet {
+            font-size: 18px;
+        }
+
+        .title-desc {
+            color: rgba(86, 94, 108, 1);
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .available-balances {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 20px;
+
+            span {
+                font-weight: normal;
+            }
+        }
+
+        .custom {
+            border-top: 1px solid #dee2e6;
+            border-left: 1px solid #dee2e6;
+            border-right: 1px solid #dee2e6;
+        }
+
+        .balance {
+            p {
+                width: 180px;
+            }
+        }
+    }
+}
+
+.items-button-amount {
+    width: calc((100% - 1rem - 14px) / 2) !important;
+}

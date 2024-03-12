@@ -1,0 +1,539 @@
+.avt-border {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    margin: 0 !important;
+}
+
+.recruitment-breadcrumb {
+    width: 80%;
+    margin: 3% auto 1%;
+}
+
+.recruitment-body {
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    width: 80%;
+    margin: 0 auto 3%;
+    padding-bottom: 3%;
+}
+
+.recruitment-avt-width-div {
+    width: 110px;
+    min-height: 110px;
+}
+
+.header-detail-recruitment-detail {
+    .info {
+        width: calc(100% - 160px);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+        .recruitment-header{
+            width: calc(100% - 200px);
+        }
+    }
+}
+
+.recruitment-header {
+    margin: 4% 0 0 2%;
+
+    .recruitment-job-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .recruitment-account-name {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+
+    .recruitment-expiration-date {
+        margin-top: 1%;
+
+        .recruitment-expiration-date-text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            margin-left: 1%;
+        }
+
+        .recruitment-applied-number-text {
+            //set bold for the number
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            margin-left: 1%;
+        }
+    }
+}
+
+.recruitment-button {
+    width: 172px;
+
+    .recruitment-text {
+        .recruitment-text-button-first {
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            border: none;
+        }
+
+        .recruitment-text-button-second {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .recruitment-text-button-third {
+            margin-top: 7%;
+            background-color: #ffffff;
+            color: #fd4c5c;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .recruitment-text-icon {
+            margin-right: 7%;
+        }
+    }
+}
+
+.recruitment-detail {
+    .recruitment-detail-header {
+        margin: 1% 0 0 2%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .recruitment-detail-title {
+        margin: 3% 0 3% 3%;
+        border-left: 5px #fd4c5c solid;
+        padding-left: 1%;
+
+        .recruitment-detail-title-text {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    .recruitment-detail-body-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 4%;
+        margin-top: -1%;
+
+        p {
+            word-break: break-word;
+        }
+    }
+
+    .recruitment-detail-general-information {
+        .recruitment-detail-icon {
+            margin: 5% 0 0 5%;
+            height: 37px;
+            width: 37px;
+            font-size: 1.5rem;
+            border-radius: 50%;
+            background-color: #ffedef;
+            text-align: center;
+            color: #fd4c5c;
+        }
+
+        .recruitment-detail-description-title {
+            margin: 5% 0 0 5%;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        .recruitment-detail-description-text {
+            margin: 5% 0 0 5%;
+        }
+    }
+
+    .recruitment-detail-contact-information {
+        font-style: normal;
+        font-weight: 630;
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 4%;
+        margin-right: -20%;
+
+        .recruitment-detail-contact-information-text-top {
+            margin-top: -5%;
+        }
+    }
+
+    .recruitment-detail-contact-information-details {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+
+        .recruitment-detail-contact-information-details-top {
+            margin-top: -2%;
+        }
+    }
+
+    .recruitment-detail-button {
+        margin: 4%;
+
+        .recruitment-text-icon {
+            margin-right: 7%;
+        }
+
+        .recruitment-detail-button-left {
+            margin-right: 3%;
+            width: 200px;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+
+            &.chatbox {
+                color: #fd4c5c;
+                background-color: #ffffff;
+            }
+        }
+
+        .recruitment-detail-button-right {
+            background-color: #ffffff;
+            width: 200px;
+            justify-content: center;
+            color: #fd4c5c;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
+
+.recruitment-detail-share-information-column {
+    margin: 2% 0 2% 6%;
+
+    .recruitment-detail-share-information {
+        background-color: #ffedef;
+        padding: 3% 0 10%;
+        border-radius: 8px;
+
+        .recruitment-header {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+        }
+
+        .recruitment-share-link {
+            margin: 5% 0 0 10%;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .recruitment-share-link-input-text {
+            margin: 2% 0 0 10%;
+            width: 70%;
+        }
+
+        .recruitment-share-link-button {
+            background-color: #ffffff;
+            border: 0px;
+            outline: none;
+            margin-left: 3%;
+            height: 100%;
+            color: #fd4c5c;
+        }
+
+        .recruitment-share-link-text {
+            padding-bottom: 5%;
+            margin: 5% 0 0 10%;
+        }
+
+        .recruitment-share-link-group-icon {
+            margin-left: 5%;
+
+            .recruitment-share-link-icon {
+                font-size: 2rem;
+                margin-left: 5%;
+                color: black;
+            }
+        }
+    }
+
+    .recruitment-detail-share-information-report {
+        width: 100%;
+        margin-top: 5%;
+        background-color: #ffffff;
+        color: #fd4c5c;
+    }
+}
+
+.recruitment-detail-company-information {
+    padding: 10px;
+
+    .recruitment-detail-header {
+        margin: 1% 0 0 2%;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .recruitment-detail-more-information {
+        margin: 1% 0 0 23%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        width: 176px;
+    }
+
+    .recruitment-detail-company-information-description {
+        margin: 2%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        word-break: break-word;
+    }
+
+    .recruitment-detail-company-information-general {
+        margin-left: 2%;
+
+        .recruitment-detail-company-information-general-icon {
+            margin-right: 1%;
+            color: #1890FF;
+        }
+
+        .recruitment-detail-company-information-general-link {
+            color: #495057
+        }
+
+        .recruitment-detail-company-information-general-link:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    }
+}
+
+.list-picture-candidate-recruitment {
+    width: 80%;
+    margin: 0 auto 1%;
+    background: #ffedef;
+
+    .swiper-pagination-bullet-active {
+        background: var(--primary-color) !important;
+    }
+
+    .swiper {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.recruitment-detail-show-more-button {
+    color: #db3846;
+}
+
+.recruitment-detail-show-more-button-overlay {
+    width: 80%;
+    padding: 0 auto;
+
+    .description {
+        overflow-y: scroll;
+        max-height: 300px;
+        overflow-x: hidden;
+        word-break: break-word;
+    }
+}
+
+@media (max-width: 1200px) {
+    .layout-wrapper:not(.layout-static-inactive) {
+        .recruitment-breadcrumb {
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        .recruitment-body {
+            width: 100%;
+            margin: 0;
+            padding: 0 10px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .company-background,
+    .recruitment-breadcrumb {
+        padding: 10px;
+    }
+
+    .recruitment-body,
+    .recruitment-breadcrumb {
+        width: 100%;
+    }
+
+    .recruitment-breadcrumb {
+        margin: 10px 0 0 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-detail-recruitment-detail {
+        .info {
+            width: 100%;
+        }
+        .recruitment-avt-width-div{
+            margin: 0 auto 15px auto;
+        }
+    }
+
+    .recruitment-button {
+        width: 100%;
+        margin-top: 15px;
+
+        .recruitment-text .recruitment-text-button-third {
+            margin-top: 10px;
+        }
+    }
+
+    .recruitment-header {
+        .recruitment-job-title {
+            font-size: 15px;
+            line-height: inherit;
+            font-weight: normal;
+        }
+    }
+
+    .recruitment-avt-width-div {
+        .avt-border {
+            width: 100%;
+            height: 100%;
+            min-height: inherit;
+            max-width: 100%;
+        }
+    }
+
+    .list-picture-candidate-recruitment {
+        margin: 0;
+        width: 100%;
+        padding: 0 10px;
+
+        .swiper {
+            width: 100%;
+            padding: 40px 0;
+        }
+    }
+
+    .recruitment-detail-share-information-column {
+        .recruitment-detail-share-information {
+            .recruitment-share-link-input-text {
+                width: 60%;
+            }
+
+            .recruitment-header,
+            .recruitment-share-link,
+            .recruitment-share-link-input-text,
+            .recruitment-share-link-text,
+            .recruitment-share-link-group-icon {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .recruitment-detail-share-information-column {
+        margin: 0;
+
+        .recruitment-detail-share-information {
+            padding: 15px 0;
+            text-align: center;
+        }
+    }
+
+    .recruitment-detail {
+        .recruitment-detail-button {
+
+            .recruitment-detail-button-left,
+            .recruitment-detail-button-right {
+                width: 100%;
+                margin: 0;
+            }
+
+            .recruitment-detail-button-right {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .recruitment-detail-company-information {
+        .recruitment-detail-header {
+            width: auto !important;
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .recruitment-detail-more-information {
+            margin: 0;
+            font-size: 14px;
+            text-align: right;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .recruitment-detail-company-information {
+        .recruitment-detail-more-information {
+            margin: 0;
+            width: 130px;
+        }
+
+        .recruitment-detail-company-information-general {
+            margin-left: 0;
+            width: 100%;
+            margin-top: 10px;
+            display: block;
+        }
+    }
+}

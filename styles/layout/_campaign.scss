@@ -1,0 +1,19 @@
+.daterangepicker .drp-buttons .btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.daterangepicker .drp-buttons .btn[disabled] {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+.daterangepicker .ranges li.active,
+.daterangepicker td.active:not(.off.end-date),
+.daterangepicker td.active:hover {
+    background-color: var(--primary-color) !important;
+}

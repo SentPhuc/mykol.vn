@@ -1,0 +1,1094 @@
+.blog-home-page {
+    background: linear-gradient(90deg, #fafcee 0%, #faf1f9 100%);
+    border: none !important;
+}
+
+.icon-fb-banner {
+    width: 2em;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-homepage {
+    position: relative;
+    background: linear-gradient(180deg, #ff7581 -23.19%, #53060d 100%);
+
+    .banner-image {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.index-homepage {
+    .banner-homepage {
+        padding: 0px 0.5rem !important;
+    }
+}
+
+.blog-home-page {
+    .p-dataview .p-dataview-content {
+        background: unset !important;
+    }
+
+    .p-dataview.p-dataview-list .p-dataview-content>.p-grid>div {
+        border: none;
+    }
+}
+
+.filter-tiktok-candidates .p-dropdown {
+    width: 220px !important;
+}
+
+.saved-tiktok-icon {
+    margin: 0;
+    line-height: 0;
+    border: 3px solid white;
+    min-height: auto !important;
+    padding: 8px 8px 6px;
+    border-radius: 100%;
+    background: #f1f2f3;
+    cursor: pointer;
+
+    i {
+        color: var(--primary-color) !important;
+    }
+}
+
+.save-influ-div {
+    text-align: left;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #dee2e6;
+    border-width: 0 0 1px 0;
+    font-weight: 700;
+    color: #343a40;
+    background: #f8f9fa;
+    transition: box-shadow 0.2s;
+}
+
+#herro-search {
+    background: linear-gradient(90deg, rgb(255, 132, 160) 0%, rgb(251, 102, 157) 20%, rgb(179, 45, 194) 95%, rgb(136, 95, 183) 100%);
+    padding: 0 10px;
+
+    .title {
+        color: #fff;
+        margin-bottom: 43px;
+        font: 61px/64px var(--utm);
+
+        span {
+            color: #ffccd2;
+        }
+    }
+
+    .box-search {
+        padding-left: 66px;
+        max-width: 725px;
+        margin: 0 auto;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+
+        .list-search {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            z-index: 90;
+            background-color: #fff;
+            margin-bottom: 0;
+            list-style: none;
+            width: 100%;
+            margin-top: 0;
+            text-align: left;
+            padding: 10px;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            left: 19px;
+            top: 17px;
+            cursor: pointer;
+        }
+
+        .input-search {
+            height: 62px;
+            width: calc(100% - 95px - 25px);
+            border: none;
+            outline: none;
+            color: #333;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            font: 18px var(--robotoRegular);
+
+            &::placeholder {
+                color: #c4c4c4;
+            }
+        }
+
+        .btn-search {
+            border: none;
+            width: 110px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 15px;
+            background: #da3746;
+            color: #fff;
+            text-align: center;
+            font-style: normal;
+            line-height: normal;
+            margin: 7px 10px 7px 0;
+            cursor: pointer;
+            transition: all 0.4s;
+            font: 20px var(--robotoBold);
+
+            &:hover {
+                background-color: var(--primary-color);
+            }
+        }
+    }
+}
+
+.box-hidden-data {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .box {
+        background-color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+div#zalo-fixed {
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    width: 50px;
+    height: 47.5px;
+    text-align: center;
+    border-radius: 7px;
+    z-index: 99999;
+    background-color: #fff;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+#fb-chat {
+    position: fixed;
+    right: 5px;
+    bottom: 30px;
+    z-index: 9999;
+
+    a img {
+        max-width: 50px;
+    }
+}
+
+.block-pink {
+    border-left: 5px solid #f7afb3;
+    padding: 10px;
+    font-size: 16px !important;
+    background: #fff5f5;
+    font-style: italic;
+    margin: 0 0 1.5em;
+    position: relative;
+
+    &.block-blue {
+        border-left: 5px solid var(--green-600);
+        background: var(--green-100);
+    }
+}
+
+.view-all-koc {
+    font: 17px var(--robotoMedium);
+    color: #444;
+    background: linear-gradient(90deg, rgb(255, 132, 160) 0%, rgb(251, 102, 157) 20%, rgb(179, 45, 194) 95%, rgb(136, 95, 183) 100%);
+    border-radius: 35px;
+    padding: 3px;
+
+    &:hover {
+        color: #fff;
+    }
+
+    span {
+        background-color: #fff;
+        border-radius: 35px;
+        display: block;
+        padding: 10px 25px;
+        transition: all 0.4s;
+
+        &:hover {
+            background: linear-gradient(90deg, rgb(255, 132, 160) 0%, rgb(251, 102, 157) 20%, rgb(179, 45, 194) 95%, rgb(136, 95, 183) 100%);
+        }
+    }
+}
+
+.container {
+    max-width: 1254px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.item-kol {
+    .followers {
+        background: linear-gradient(90deg, rgb(255, 132, 160) 0%, rgb(251, 102, 157) 20%, rgb(179, 45, 194) 95%, rgb(136, 95, 183) 100%);
+        top: 8px;
+        left: 8px;
+        z-index: 2;
+        font: 15px var(--robotoBold);
+        padding: 3px 8px 3px 3px;
+    }
+
+    .image {
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .image::before {
+        content: '';
+        background: url(../../public/demo/images/home/bg-shadow-kol.png) no-repeat;
+        width: 100%;
+        height: 160px;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    .title {
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+
+        .name {
+            font: 18px var(--robotoBold);
+        }
+
+        .city {
+            font: 14px var(--robotoRegular);
+        }
+    }
+
+    .info {
+        .price {
+            color: #000;
+            font: 19px var(--robotoMedium);
+        }
+    }
+
+    .careers {
+        margin-top: 8px;
+        color: #605f60;
+        font: 15px var(--robotoRegular);
+        line-height: 1.5;
+    }
+}
+
+.header-careers {
+    padding-left: 18px;
+    margin-bottom: 10px;
+
+    .title-gradient-careers {
+        --gradientText: linear-gradient(90deg, rgb(255 132 160) 0%, rgb(251 102 157) 20%, rgb(179 45 194) 95%, rgb(136, 95, 183) 100%);
+        background: var(--gradientText);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-family: 'RobotoBold';
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+
+.form-search {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    .title-gradient {
+        --gradientText: linear-gradient(90deg, rgb(255 132 160) 0%, rgb(251 102 157) 20%, rgb(179 45 194) 95%, rgb(136, 95, 183) 100%);
+        background: var(--gradientText);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-family: 'RobotoBold';
+    }
+
+    .title-form-search {
+        display: inline-block;
+        font: 17px var(--robotoRegular);
+        color: #545454;
+        padding: 16px 30px 38px 30px;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+    }
+
+    form {
+        margin-top: -26px;
+        border-radius: 35px;
+        padding-right: 6px;
+    }
+
+    .btn {
+        width: 48px;
+        height: 48px;
+        background: url('../../public/demo/images/home/icon-search.png') no-repeat center;
+        border: none;
+    }
+}
+
+.item-form-search {
+    width: calc((100% - 48px) / 2);
+    padding: 12px 6px 12px 32px;
+
+    label {
+        color: #111;
+        font: 17px var(--robotoMedium);
+        display: block;
+    }
+
+    span {
+        color: #a3a3a3;
+        font: 14px var(--robotoRegular);
+        display: block;
+        margin-top: 2px;
+    }
+
+    .box-careerCodes {
+        --darkBoxShadow: rgba(120, 120, 170, 0.3) 0 2px 10px 0;
+        position: absolute;
+        list-style: none;
+        z-index: 999;
+        left: 0;
+        top: calc(100% + 13px);
+        width: calc(100% - 30px);
+        overflow-y: scroll;
+        max-height: 300px;
+        background-color: white;
+        padding: 14px;
+        box-shadow: var(--darkBoxShadow);
+        border-radius: 30px;
+        transition-duration: 0.3s;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        line-height: unset;
+
+        &::-webkit-scrollbar {
+            display: block !important;
+            width: 3px !important;
+            -webkit-appearance: scrollbartrack-vertical;
+        }
+
+        li {
+            padding: 6px 12px;
+            background-color: #F1F1F1;
+            border-radius: 5px;
+            width: fit-content;
+            text-align: center;
+            font-size: 86%;
+            transition-duration: 0.3s;
+            color: #222 !important;
+            font-size: 14px;
+
+            &:hover {
+                background-color: #d6d6d6;
+            }
+        }
+
+        &.box-bookingPrice {
+            left: 30px;
+            gap: 0;
+
+            li {
+                width: 100%;
+                text-align: left;
+                padding: 10px;
+                font-size: 15px;
+                background-color: transparent;
+
+                &:hover {
+                    background-color: #d6d6d6;
+                }
+            }
+        }
+    }
+}
+
+#lading-page {
+    font-family: 'Times new roman';
+    color: #000;
+    font-size: 16px;
+}
+
+.hover-zoom {
+    overflow: hidden;
+    position: relative;
+
+    img {
+        transition: all 0.4s;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.title-home {
+    font: 32px var(--robotoBold);
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.desc-home {
+    font-size: 18px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+#mykol-woking {
+    padding: 56px 0;
+
+    .box-mykol-woking {
+        gap: 18px;
+    }
+
+    .box-mykol-other {
+        gap: 102px;
+        padding: 56px 0;
+    }
+
+    .item-woking {
+        border-radius: 35px;
+        overflow: hidden;
+
+        .image {
+            border-radius: 35px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                z-index: 6;
+                left: -1px;
+                top: 28px;
+                background: url("../../public/demo/images/home/number-1.png") no-repeat;
+                width: 79px;
+                height: 126px;
+            }
+        }
+
+        &:nth-child(2) {
+            .image::before {
+                background: url("../../public/demo/images/home/number-2.png") no-repeat;
+            }
+        }
+
+        &:nth-child(3) {
+            .image::before {
+                background: url("../../public/demo/images/home/number-3.png") no-repeat;
+            }
+        }
+
+        .info {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 2;
+            background: url("../../public/demo/images/home/shadow-action.png") no-repeat left bottom;
+            background-size: 100% 100%;
+            padding: 28px 28px 22px;
+
+            h3 {
+                font: 28px var(--robotoBold);
+                color: #fff;
+                text-transform: capitalize;
+                margin-bottom: 10px;
+            }
+
+            div {
+                font-size: 12px;
+                color: #e2e2e2;
+            }
+        }
+    }
+
+    .item-other {
+        h3 {
+            font: 28px var(--robotoBold);
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        div {
+            font-size: 18px;
+            color: #727272;
+        }
+    }
+}
+
+#adv-mykol {
+    .box-adv-mykol {
+        padding-bottom: 50px;
+        gap: 14px;
+
+        .item-adv-mykol {
+            .image {
+                border-radius: 12px;
+
+                img {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
+
+#brand-woking {
+    padding: 50px 0;
+
+    .title-home {
+        max-width: 600px;
+        margin-bottom: 30px;
+    }
+
+    .box-brand-woking {
+        padding: 1px;
+        background: linear-gradient(90deg, rgb(255 132 160) 0%, rgb(251 102 157) 20%, rgb(179 45 194) 95%, rgb(136, 95, 183) 100%);
+        border-radius: 30px;
+
+        &>div {
+            border-radius: 30px;
+            padding: 32px;
+            gap: 55px;
+
+            .item-brand-woking {
+                background: url("../../public/demo/images/home/icon-comma.png") no-repeat left top;
+                padding-top: 45px;
+
+                h3 {
+                    font: 26px var(--robotoBold);
+                    color: #232323;
+                }
+
+                div {
+                    font-size: 17px;
+                    color: #727272;
+                    text-align: justify;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    color: #333;
+                    font: italic 17px var(--robotoMedium);
+                }
+            }
+        }
+    }
+}
+
+#question-and-answer {
+    padding-bottom: 50px;
+
+    .button-container {
+        &>div {
+            padding: 22px 30px;
+
+            img {
+                transition: all 0.4s;
+
+                &.active {
+                    transform: rotate(45deg);
+                }
+            }
+        }
+
+        p {
+            color: #000;
+            margin-bottom: 0;
+            font: 22px var(--robotoMedium)
+        }
+    }
+
+    .desc-container {
+        padding: 0 28px;
+        transition: height .5s ease-in-out;
+
+        .desc-content {
+            font-size: 20px;
+            color: #474747;
+            padding-left: 16px;
+            border-left: 3px solid;
+            border-image-slice: 1;
+            border-width: 3px;
+            border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+        }
+    }
+}
+
+#careers-home {
+    padding-top: 50px;
+
+    .box-careers-home {
+        padding: 35px 40px 13px 40px;
+        border-radius: 35px;
+    }
+
+    .item-careers-home {
+        width: calc((100% - 66px) / 4);
+        margin-bottom: 22px;
+        border-radius: 25px;
+        overflow: hidden;
+
+        .image {
+            border-radius: 35px;
+
+            img {
+                vertical-align: middle;
+            }
+        }
+
+        .info {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: 5;
+            background: url("../../public/demo/images/home/shadow-career.png") no-repeat;
+            background-size: 100% 100%;
+            padding: 50px 25px 25px 25px;
+            width: 100%;
+
+            h3 {
+                font: 25px var(--robotoBold);
+                color: #fff;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+#theRecruitment {
+    padding-top: 50px;
+
+    .footer-theRecruitment {
+        background: url("/demo/images/home/line-view-more-recruitment.png") no-repeat center bottom;
+        padding-bottom: 57px;
+        background-size: 100% 100%;
+        margin-top: 55px;
+
+        a {
+            display: inline-block;
+
+            span {
+                display: block;
+                padding: 9px 21px;
+                font: 18px var(--robotoBold);
+                color: #444;
+                transition: all 0.4s;
+
+                &:hover {
+                    color: #ef4f5e;
+                }
+            }
+        }
+    }
+}
+
+.title-home {
+    span {
+        background: url("/demo/images/home/title-recruitment.png") no-repeat center;
+        height: 119px;
+        width: 100%;
+        max-width: 454px;
+        background-size: contain;
+    }
+}
+
+.item-recruitments {
+    .box {
+        border-radius: 15px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.03);
+
+        img {
+            border-radius: 15px;
+            overflow: hidden;
+            object-fit: contain;
+        }
+
+        .box-info {
+            gap: 16px;
+
+            .info {
+                width: calc(100% - 132px);
+
+                h3 {
+                    color: #1b1c1c;
+                    font: 20px var(--robotoBold);
+                    margin-bottom: 10px;
+                    transition: all 0.4s;
+
+                    &:hover {
+                        color: #d61e30;
+                    }
+                }
+
+                .tag-info {
+                    flex-wrap: wrap;
+                    display: flex;
+                    gap: 5px;
+
+                    span {
+                        color: #1b1c1c;
+                        font: 9.8px var(--robotoMedium);
+                        padding: 4.5px 9px;
+                        background-color: #e8e7e7;
+                        border-top-left-radius: 8px;
+                        border-bottom-right-radius: 8px;
+                    }
+                }
+
+                .desc {
+                    font-size: 13px;
+                    color: #4d4c4d;
+                    position: relative;
+                    border-left: 3px solid #bd519c;
+                    padding-left: 10px;
+
+                    div {
+                        padding-right: 65px;
+                    }
+
+                    p {
+                        margin-bottom: 0;
+                    }
+
+                    a {
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        color: #267bbf;
+                        font-size: 13px;
+                        transition: all 0.4s;
+
+                        &:hover {
+                            color: #d61e30;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-recruitments {
+            justify-content: space-between;
+            align-items: center;
+
+            .tag {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 5px;
+                width: 100%;
+                max-width: 375px;
+
+                span {
+                    border-radius: 15px;
+                    background-color: #f2f2f2;
+                    padding: 5px 14px;
+                    font-size: 12px;
+                    color: #4d4c4d;
+                }
+            }
+
+            a {
+                font: 14px var(--robotoBold);
+                color: #fff;
+                background-color: #ef4f5e;
+                border-radius: 35px;
+                padding: 6px 16px;
+                transition: all 0.4s;
+
+                &:hover {
+                    background-color: #d61e30;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    #theRecruitment {
+        .footer-theRecruitment {
+            margin-top: 0;
+            background: transparent;
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #mykol-woking {
+        padding: 20px 0;
+
+        .title-home {
+            font-size: 20px;
+        }
+
+        .desc-home {
+            font-size: 15px;
+        }
+
+        .box-mykol-woking {
+            gap: 18px;
+        }
+
+        .box-mykol-other {
+            gap: 10px;
+        }
+
+        .item-woking {
+            .image {
+                &::before {
+                    display: none;
+                }
+            }
+
+            .info {
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                z-index: 2;
+                background: url("../../public/demo/images/home/shadow-action.png") no-repeat left bottom;
+                background-size: 100% 100%;
+                padding: 15px;
+
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .item-other {
+            h3 {
+                font-size: 16px;
+            }
+
+            div {
+                font-size: 14px;
+            }
+        }
+
+        .box-mykol-other {
+            padding: 20px 0;
+        }
+    }
+
+    #brand-woking {
+        padding: 20px 0;
+
+        .title-home {
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+
+        .box-brand-woking {
+            border-radius: 15px;
+
+            &>div {
+                border-radius: 15px;
+                padding: 15px;
+                gap: 15px;
+
+                .item-brand-woking {
+                    padding-top: 45px;
+
+                    h3 {
+                        font-size: 16px;
+                        margin-bottom: 15px;
+                    }
+
+                    div {
+                        font-size: 15px;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    #question-and-answer {
+        padding-bottom: 20px;
+
+        .button-container {
+            &>div {
+                padding: 15px;
+
+                img {
+                    max-width: 14px;
+                }
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .desc-container {
+            padding: 0 15px;
+
+            .desc-content {
+                font-size: 15px;
+            }
+        }
+    }
+
+    #careers-home {
+        padding-top: 20px;
+
+        .box-careers-home {
+            padding: 10px 10px 3px 10px;
+        }
+
+        .item-careers-home {
+            width: calc((100% - 20px) / 3);
+            margin-bottom: 10px;
+            border-radius: 25px;
+            overflow: hidden;
+
+            .image {
+                border-radius: 35px;
+
+                img {
+                    vertical-align: middle;
+                }
+            }
+
+            .info {
+                padding: 10px;
+
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #herro-search {
+        .title {
+            font-size: 30px;
+            line-height: 1.4;
+            margin-bottom: 15px;
+
+            span {
+                padding-left: 5px !important;
+            }
+        }
+
+        .box-search {
+            padding-left: 0;
+
+            img {
+                display: none;
+            }
+
+            .input-search {
+                height: 40px;
+                width: calc(100% - 148px);
+                padding-left: 10px;
+            }
+
+            .btn-search {
+                margin-top: 5px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                height: 38px;
+                width: 130px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .form-search {
+        .title-gradient {
+            font-size: 20px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+    }
+
+    .desc-home {
+        margin-bottom: 20px;
+    }
+
+    #adv-mykol .box-adv-mykol {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #careers-home {
+        padding-top: 20px;
+
+        .item-careers-home {
+            width: calc((100% - 20px) / 2);
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .item-recruitments {
+        .box {
+            img {
+                margin: 0 auto;
+            }
+
+            .box-info {
+                text-align: center;
+
+                .info {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    text-align: left;
+                }
+            }
+
+            .footer-recruitments a {
+                margin-top: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.header-applied-job {
+  .note {
+    background: #EFF6FF;
+    border-radius: 6px;
+    padding: 10px;
+  }
+
+  p {
+    color: #1E40AF !important;
+    font-weight: normal;
+  }
+}
+
+.applied-job {
+  .p-dataview .p-dataview-header {
+    background: #ffffff !important;
+    padding: 0 !important;
+    padding-top: 1rem !important;
+    margin-bottom: 30px !important;
+    border-width: 0 !important;
+  }
+
+  .header-filter-recruitment {
+    padding-bottom: 1rem !important;
+  }
+}
+
+.chart-bg-indigo-500 {
+  .ct-slice-donut {
+    stroke: var(--indigo-500);
+  }
+}
+
+.chart-bg-blue-500 {
+  .ct-slice-donut {
+    stroke: var(--blue-500);
+  }
+}
+
+.chart-bg-green-500 {
+  .ct-slice-donut {
+    stroke: var(--green-500);
+  }
+}
+
+.chartCenter {
+  font-size: 18px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  i {
+    font-size: 30px;
+  }
+}
+
+.box-datasets-chart {
+  li:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.dots-chart {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 8px;
+
+  &.chart-bg-indigo-500 {
+    background-color: var(--indigo-500);
+  }
+
+  &.chart-bg-blue-500 {
+    background-color: var(--blue-500);
+  }
+
+  &.chart-bg-green-500 {
+    background-color: var(--green-500);
+  }
+}
+
+.box-followers {
+  .ct-label {
+    font-size: 14px;
+    fill: #333;
+    cursor: pointer;
+  }
+}

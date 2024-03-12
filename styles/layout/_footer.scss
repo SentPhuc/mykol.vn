@@ -1,0 +1,47 @@
+.layout-footer {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    .lines {
+        border: 1px solid #FFFFFF;
+        width: 10%;
+        margin: 50px auto;
+    }
+
+    .copyright {
+        color: rgba(255, 255, 255);
+        opacity: 0.6;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .location {
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .info-footer{
+        padding-top: 100px;
+        .title-info-footer{
+            padding-right: 215px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .layout-footer {
+        .info-footer{
+            padding-top: 0;
+            .title-info-footer{
+                padding-right: 0;
+            }
+        }
+    }
+}

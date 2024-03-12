@@ -1,0 +1,1005 @@
+.index-homepage {
+    .search-recruitment {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+.search-recruitment {
+    position: relative;
+
+    .threedot1 {
+        position: absolute;
+        left: -120px;
+        top: 178px;
+    }
+
+    .threedot2 {
+        position: absolute;
+        right: -120px;
+        top: 300px;
+    }
+
+    .rotate {
+        position: absolute;
+        left: 480px;
+        top: -270px;
+        background: linear-gradient(179.07deg, rgba(255, 198, 204, 0.32) 22.59%, rgba(255, 237, 239, 0.32) 93.08%);
+        opacity: 0.8 !important;
+        width: 300px;
+        height: 1500px;
+        transform: rotate(-38.67deg);
+    }
+}
+
+.card-search-recruitment {
+    border: none !important;
+}
+
+.search-recruitment {
+    .p-dataview .p-dataview-header {
+        border: none;
+        padding: 0;
+        margin-bottom: 3rem;
+        background: transparent;
+
+        .p-dataview-header-box {
+            background: #ffffff !important;
+            box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+            padding: 2rem 1rem;
+        }
+    }
+
+    .p-dataview .p-dataview-content {
+        background-color: transparent !important;
+    }
+}
+
+.filter-recruitment {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+
+    .p-dataview .p-dataview-header {
+        background: #202939 !important;
+        padding: 2.8rem 0 0 0 !important;
+        margin-bottom: 4rem !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        position: relative;
+        margin-top: -150px;
+    }
+
+    .header-filter-recruitment {
+        padding-bottom: 2.8rem !important;
+    }
+}
+
+.remove-filter .pi-reply {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.remove-filter {
+    background-color: white;
+    border: none !important;
+    padding: 11px 16px;
+    color: #202939 !important;
+    box-shadow: 0px 0px 12px rgba(180, 144, 140, 0.2);
+    border-radius: none !important;
+}
+
+.remove-filter:hover {
+    background: rgba(100, 116, 139, 0.04) !important;
+    color: #64748b !important;
+}
+
+.remove-filter:active {
+    background: rgba(100, 116, 139, 0.16) !important;
+    color: #64748b !important;
+}
+
+// .create-new-recruitment {
+//   .field {
+//     padding: 0rem !important;
+//   }
+// }
+
+.total-infor-section {
+    .card {
+        background: #ffffff !important;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06) !important;
+        border-radius: 8px !important;
+    }
+}
+
+.recruitment-title-wrapper {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recruitment-title {
+    color: #495057;
+}
+
+.recruitment-title:hover {
+    text-decoration: underline;
+    text-decoration-color: #fd4c5c;
+}
+
+.item-card-filter-recruiment {
+    .images {
+        width: 84px;
+    }
+
+    .info {
+        width: calc(100% - 95px);
+        padding-right: 25px;
+    }
+
+    .heart-button {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        z-index: 1;
+    }
+}
+
+.item-custom-filter {
+    width: calc((100% - 80px) / 6);
+}
+
+.cut-line-2 {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.kolName-applied-candidates {
+    word-break: break-all;
+}
+
+.line-clamp-2 {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.header-campaign-report-detail-left a {
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+
+    i {
+        font-size: 25px;
+        vertical-align: middle;
+    }
+
+    &:hover,
+    &.active {
+        font-weight: 700;
+        color: var(--primary-color);
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            width: 100%;
+            height: 3px;
+            background: var(--primary-color);
+            left: 0;
+        }
+    }
+
+    &:nth-child(1) {
+        padding: 0;
+        position: absolute;
+        left: -20px;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+
+        i {
+            font-size: 20px;
+        }
+
+        &:hover {
+            &::before {
+                display: none;
+            }
+        }
+
+        @media (max-width: 900px) {
+            display: none;
+        }
+    }
+}
+
+.header-campaign-report-content {
+    .header-campaign-report-detail-left a {
+        &:nth-child(1) {
+            padding: 10px 20px;
+            position: relative;
+            left: inherit;
+            top: inherit;
+            width: auto;
+            height: auto;
+
+            i {
+                font-size: 25px;
+            }
+
+            &:hover {
+                &::before {
+                    display: block;
+                }
+            }
+
+            @media (max-width: 900px) {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.title-section-campaign-report-detail {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.custom-banner-campaign-report {
+    width: 100%;
+    max-width: 90px;
+    height: 100%;
+}
+
+.custom-avatar-campaign-report {
+    width: 36px;
+    height: 36px;
+}
+
+.table-campaign-report-detail {
+    .p-datatable-thead {
+        .p-column-header-content {
+            justify-content: center;
+        }
+
+        th {
+
+            &:nth-child(1),
+            &:nth-child(2) {
+                .p-column-header-content {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+
+.campaign-report-detail-statistics {
+    .p-tabview-panels {
+        padding-left: 0;
+        padding-right: 0;
+
+        canvas {
+            max-height: 250px;
+        }
+    }
+}
+
+.items-campaign-report-content {
+    .items-contents {
+        .img {
+            width: 100%;
+        }
+    }
+
+    h4.name {
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+.custom-container-content {
+    .p-carousel-items-container {
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
+}
+
+//Applied candidates
+.p-datatable-custom {
+    .p-datatable-wrapper {
+        // &::-webkit-scrollbar {
+        //     width: 20px !important;
+        //     background-color:rgba(0, 0, 0, 0.1);
+        // }
+
+        // &::-webkit-scrollbar:horizontal {
+        //     height: 20px !important;
+        // }
+
+        // &::-webkit-scrollbar-track {
+        //     background-color: transparentize(#ccc, 0.7);
+        // }
+
+        // &::-webkit-scrollbar-thumb {
+        //     border-radius: unset;
+        //     background-color: #8d8d8d;
+        //     width: 20px;
+        //     height: 20px;
+        // }
+
+        max-height: 425px;
+
+        .p-datatable-thead {
+            z-index: 11;
+        }
+    }
+
+    &.list-recruitments {
+        .p-datatable-wrapper {
+            max-height: 465px;
+        }
+    }
+}
+
+.custom-table-applied-candidates {
+    .p-datatable-thead {
+        tr {
+
+            th[role="columnheader"]:nth-child(1),
+            th[role="columnheader"]:nth-child(2),
+            th[role="columnheader"]:nth-child(3) {
+                position: sticky;
+                z-index: 10;
+                background-color: #f8f9fa;
+            }
+
+            th[role="columnheader"]:nth-child(1) {
+                left: 0;
+            }
+
+            th[role="columnheader"]:nth-child(2) {
+                left: 40px;
+            }
+
+            th[role="columnheader"]:nth-child(3) {
+                left: 190px;
+            }
+        }
+    }
+
+    .p-datatable-tbody {
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+
+            td {
+                background-color: #f5f5f5 !important;
+            }
+        }
+
+        tr {
+
+            td:nth-child(1),
+            td:nth-child(2),
+            td:nth-child(3) {
+                position: sticky;
+                z-index: 10;
+                background-color: #fff;
+            }
+
+            td:nth-child(1) {
+                left: 0;
+            }
+
+            td:nth-child(2) {
+                left: 40px;
+            }
+
+            td:nth-child(3) {
+                left: 190px;
+            }
+        }
+    }
+}
+
+.custom-table-kol-candidates-other {
+    .p-datatable-thead {
+        tr {
+
+            th[role="columnheader"]:nth-child(1),
+            th[role="columnheader"]:nth-child(2),
+            th[role="columnheader"]:nth-child(3),
+            th[role="columnheader"]:last-child {
+                position: sticky;
+                z-index: 10;
+                background-color: #f8f9fa;
+            }
+
+            th[role="columnheader"]:nth-child(1) {
+                left: 0;
+            }
+
+            th[role="columnheader"]:nth-child(2) {
+                left: 34px;
+            }
+
+            th[role="columnheader"]:nth-child(3) {
+                left: 170px;
+            }
+
+            th[role="columnheader"]:last-child {
+                right: 0;
+            }
+        }
+    }
+
+    .p-datatable-tbody {
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+
+            td {
+                background-color: #f5f5f5 !important;
+            }
+        }
+
+        tr {
+
+            td:nth-child(1),
+            td:nth-child(2),
+            td:nth-child(3),
+            td:last-child {
+                position: sticky;
+                z-index: 10;
+                background-color: #fff;
+            }
+
+            td:nth-child(1) {
+                left: 0;
+            }
+
+            td:nth-child(2) {
+                left: 34px;
+            }
+
+            td:nth-child(3) {
+                left: 170px;
+            }
+
+            td:last-child {
+                right: 0;
+            }
+        }
+    }
+}
+
+.custom-table-kol-candidates {
+    .p-datatable-thead {
+        tr {
+
+            th[role="columnheader"]:nth-child(1),
+            th[role="columnheader"]:nth-child(2),
+            th[role="columnheader"]:last-child {
+                position: sticky;
+                z-index: 10;
+                background-color: #f8f9fa;
+            }
+
+            th[role="columnheader"]:nth-child(1) {
+                left: 0;
+            }
+
+            th[role="columnheader"]:nth-child(2) {
+                left: 40px;
+            }
+
+            th[role="columnheader"]:last-child {
+                right: 0;
+            }
+        }
+    }
+
+    .p-datatable-tbody {
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+
+            td {
+                background-color: #f5f5f5 !important;
+            }
+        }
+
+        tr {
+
+            td:nth-child(1),
+            td:nth-child(2),
+            td:last-child {
+                position: sticky;
+                z-index: 10;
+                background-color: #fff;
+            }
+
+            td:nth-child(1) {
+                left: 0;
+            }
+
+            td:nth-child(2) {
+                left: 40px;
+            }
+
+            td:last-child {
+                right: 0;
+            }
+        }
+    }
+}
+
+.custom-table-kol-candidates-kol-all {
+    .p-datatable-thead {
+        tr {
+
+            th[role="columnheader"]:nth-child(1),
+            th[role="columnheader"]:nth-child(2),
+            th[role="columnheader"].view-videos,
+            th[role="columnheader"]:last-child {
+                position: sticky;
+                z-index: 10;
+                background-color: #f8f9fa;
+            }
+
+            th[role="columnheader"]:nth-child(1) {
+                left: 0;
+            }
+
+            th[role="columnheader"]:nth-child(2) {
+                left: 40px;
+            }
+
+            th[role="columnheader"].view-videos {
+                right: 118px;
+            }
+
+            th[role="columnheader"]:last-child {
+                right: 0;
+            }
+        }
+    }
+
+    .p-datatable-tbody {
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+
+            td {
+                background-color: #f5f5f5 !important;
+            }
+        }
+
+        tr {
+
+            td:nth-child(1),
+            td:nth-child(2),
+            td.view-videos,
+            td:last-child {
+                position: sticky;
+                z-index: 10;
+                background-color: #fff;
+            }
+
+            td:nth-child(1) {
+                left: 0;
+            }
+
+            td:nth-child(2) {
+                left: 40px;
+            }
+
+            td.view-videos {
+                right: 118px;
+            }
+
+            td:last-child {
+                right: 0;
+            }
+        }
+    }
+}
+
+// recruitments
+.form-recruitments {
+    width: 100%;
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .input-keyword {
+        width: calc(100% - 150px - 130px - 150px - 54px);
+        border: 1px solid var(--primary-color);
+        border-radius: 35px;
+        padding-left: 17px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+
+        i {
+            font-size: 20px;
+        }
+
+        input {
+            border-radius: 35px;
+            border: none;
+            height: 48px;
+            width: 100%;
+            outline: none !important;
+
+            &::placeholder {
+                font-family: var(--robotoMedium);
+                font-style: italic;
+                color: #d7d7d7;
+            }
+        }
+    }
+
+    button {
+        padding: 14.5px 30px;
+        border-radius: 15px;
+        font: 16px var(--robotoMedium);
+        font-style: normal;
+    }
+
+    button[type="button"] {
+        background-color: #fff;
+        color: var(--primary-color);
+    }
+
+    .item-form-search {
+        width: 150px;
+        border-radius: 15px;
+        padding: 13px 14px;
+
+        .cursor-pointer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .box-careerCodes {
+            min-width: 320px;
+            left: inherit;
+            right: 0;
+            z-index: 10;
+        }
+    }
+}
+
+.footer-search {
+    .title-free-product {
+
+        span {
+            color: #000;
+            font: 17.46px var(--robotoBold);
+        }
+
+        div {
+            font-size: 15.35px;
+            color: #444445;
+            background-color: #ececec;
+            border: none;
+            border-radius: 35px;
+            padding: 7px 15px;
+            margin-left: 10px;
+            cursor: pointer;
+            outline: none !important;
+            transition: all 0.4s;
+
+            img {
+                margin-right: 6px;
+            }
+
+            &.active {
+                background-color: var(--primary-color);
+                color: #fff;
+            }
+        }
+    }
+}
+
+// End recruitments
+
+/* Custom css for Print page */
+.box-total-value-statistics-print {
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px #fd4c5c;
+}
+
+.banner-pdf {
+    display: none;
+}
+
+.custom-quill {
+    .ql-editor {
+        height: 200px;
+    }
+}
+
+@page {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media print {
+    .main-print {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        print-color-adjust: exact !important;
+
+        .header-campaign-report-detail-right {
+            width: 50% !important;
+            justify-content: flex-end !important;
+        }
+
+        .header-campaign-report-detail-left {
+            width: 50% !important;
+
+            .btn-content {
+                display: none !important;
+            }
+        }
+
+        .block-Statistical-social {
+            padding: 10px;
+        }
+
+        .block-interaction-index-social {
+            .items-interaction {
+                .header-interaction {
+                    font-size: 12px;
+
+                    i {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner-pdf {
+        display: block;
+    }
+
+    .layout-topbar,
+    .facebook-fab-button {
+        display: none !important;
+    }
+
+    .layout-main {
+
+        .p-datatable table,
+        .custom-table-work table {
+            zoom: 70%;
+        }
+
+        .layout-footer {
+            overflow: hidden;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .filter-recruitment {
+        .p-dataview .p-dataview-header {
+            margin-bottom: 1rem !important;
+            padding-top: 1rem !important;
+            margin-top: 0;
+        }
+
+        .header-filter-recruitment {
+            padding-bottom: 1rem !important;
+        }
+    }
+
+    .item-custom-filter {
+        width: calc((100% - 20px) / 3);
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .create-new-recruitment {
+        .field {
+            margin-bottom: 0;
+        }
+    }
+
+    .page-search-recruitments {
+        .search-recruitments-banner {
+            img {
+                max-width: 100%;
+                height: auto !important;
+            }
+        }
+    }
+
+    .custom-table-applied-candidates {
+        .p-column-header-content {
+            .p-column-title {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .form-recruitments {
+        justify-content: flex-start !important;
+
+        .input-keyword {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        button {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        button[type="submit"] {
+            margin: 0 10px;
+        }
+
+        .item-form-search {
+            padding-top: 8.5px;
+            padding-bottom: 8.5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page-search-recruitments {
+
+        .custom-button-filter,
+        .items-input-filter:not(:first-child) {
+            width: calc((100% - 1rem) / 2);
+        }
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .create-new-recruitment {
+        .custom-FileUpload .p-fileupload-buttonbar {
+            flex-wrap: wrap;
+        }
+
+        .custom-progressBar {
+            width: 100% !important;
+            margin-top: 12px;
+            justify-content: space-between;
+
+            .p-progressbar-determinate {
+                width: calc(100% - 125px) !important;
+            }
+        }
+
+        .avatar-fileupload {
+            width: 60% !important;
+        }
+
+        .item-fileupload {
+            justify-content: space-between;
+            position: relative;
+
+            button.p-button {
+                margin-left: inherit !important;
+            }
+
+            .tag-fileupload {
+                display: none;
+            }
+        }
+    }
+
+    .footer-search {
+        button[aria-label="Tạo tin đăng"] {
+            width: 100%;
+            margin-top: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .form-recruitments button,
+    .form-recruitments .item-form-search {
+        width: 100%;
+        margin: 5px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .item-custom-filter {
+        width: 100%;
+    }
+
+    .header-campaign-report-detail-left a {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        i {
+            font-size: 16px;
+        }
+    }
+
+    .header-campaign-report-detail-right {
+        .p-button {
+            width: 100%;
+            margin-top: 5px;
+            margin-left: 0 !important;
+        }
+
+        .form-filter {
+            width: 100%;
+
+            .p-input-icon-left {
+                width: calc(100% - 60px);
+
+                #calendar-filter {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .create-new-recruitment {
+        .custom-FileUpload .p-fileupload-buttonbar {
+            justify-content: space-between;
+            padding: 1rem;
+        }
+
+        .p-fileupload .p-fileupload-buttonbar .p-button {
+            margin: 0;
+            width: calc((100% - 10px) / 2);
+            font-size: 10px;
+        }
+
+        .avatar-fileupload {
+            width: 100% !important;
+        }
+
+        .item-fileupload {
+            button.p-button {
+                width: 20px;
+                height: 20px;
+                padding: 0;
+                position: absolute;
+                right: 0;
+                top: 10px;
+                z-index: 2;
+
+                .p-button-icon {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+variables:
+  GIT_STRATEGY: none
+
+workflow:
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "develop"
+      variables:
+        TAG: test-runner
+        ENVIRONMENT: test
+    - if: $CI_COMMIT_REF_NAME == "prod"
+      variables:
+        TAG: prod-runner
+        ENVIRONMENT: prod
+
+stages:
+  - deploy
+
+deploy-job:
+  stage: deploy
+  environment: $ENVIRONMENT
+  tags:
+    - $TAG
+  only:
+    - develop
+    - prod
+  script:
+    - echo "Running pipeline on branch $CI_COMMIT_REF_NAME with runner tagged $TAG"
+    - sh /home/influx/scripts/build-fe.sh

@@ -1,0 +1,148 @@
+/* Utils */
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.card {
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--card-shadow);
+  border-radius: 0;
+  //border-radius: $borderRadius;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.p-toast {
+  &.p-toast-top-right,
+  &.p-toast-top-left,
+  &.p-toast-top-center {
+    top: 100px;
+  }
+}
+
+.w-120 {
+  width: 120px !important;
+  height: auto;
+}
+
+.w-106 {
+  width: 106px !important;
+  height: auto;
+}
+
+.w-180 {
+  width: 180px !important;
+  height: auto;
+
+  @media screen and (max-width: 480px) {
+    & {
+      width: auto !important;
+    }
+  }
+}
+
+.facebook-fab-button {
+  position: fixed;
+  bottom: -400px;
+  right: 70px;
+  z-index: 100;
+}
+
+.facebook-fab-button a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #3b5998;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.facebook-fab-button a:hover {
+  transform: scale(1.1);
+}
+
+.primary-color {
+  color: var(--primary-color) !important;
+}
+
+.outlined-text {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  opacity: 0.3;
+}
+
+.pl-180 {
+  padding-left: 180px;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.shadow-2 {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px !important;
+}
+
+
+.shadow-one-recruiment {
+  box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.16);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+// .grid {
+//   margin: 0 !important;
+// }
+
+.min-h-111 {
+  min-height: 111px;
+}
+
+.icon-box-left {
+  display: flex;
+  flex: 100% 1005;
+}
+
+.empty-content {
+  visibility: hidden;
+}
+
+.roles-list {
+  .p-datatable-tbody td:last-child {
+    justify-content: end;
+  }
+}
+
+.is_read {
+  p {
+    color: #73818f !important;
+  }
+}
+
+.is_not_read {
+  p {
+    font-weight: 700 !important;
+  }
+
+  p:nth-child(2) {
+    color: #385898 !important;
+  }
+}
+
+.obj-fit-cover {
+  object-fit: cover;
+}

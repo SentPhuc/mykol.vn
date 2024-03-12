@@ -1,0 +1,270 @@
+.description {
+  white-space: pre-line;
+}
+
+.banner-company {
+  background: linear-gradient(180deg, #FF7581 -23.19%, #53060D 100%);
+  display: block;
+  position: static;
+  margin: 2% auto 0;
+  height: 400px;
+  width: 90%;
+
+  .banner-image {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+}
+
+.company-body-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.avatar {
+  box-sizing: border-box;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  margin-top: -5%;
+  margin-left: 0.5%;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+}
+
+.company-background {
+  background-color: #f0f2f5;
+  border: 1px solid #EEEEEE;
+}
+
+.company-body {
+  background-color: white;
+  border: 1px solid #EEEEEE;
+  border-radius: 8px;
+
+  .company-header-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    margin-bottom: 2%;
+  }
+
+  .company-contact-info {
+    .company-contact-label {
+      display: inline-block;
+      width: 120px;
+    }
+
+    .company-contact-label-link {
+      color: #495057;
+    }
+
+    .company-contact-label-link:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  }
+
+}
+
+
+.company-header {
+  height: 140%;
+  width: 90%;
+  margin: 0 auto 3%;
+  padding-bottom: 3%;
+}
+
+.company-name {
+  margin: 1% 0 1% 256px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.company-website {
+  margin-left: 15%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.company-size {
+  margin-right: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.company-addresses {
+  margin-left: 0px;
+}
+
+.company-description {
+  padding: 1% 3%;
+
+  .company-description-detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+  }
+}
+
+.company-right-column {
+  margin-left: 2%;
+  width: 21.5%;
+}
+
+.company-right-column-share-information {
+  padding-bottom: 8%;
+  background-color: #FFFFFF;
+
+  .company-right-column-copy-link {
+    padding-bottom: 5%;
+    margin-left: 10%;
+  }
+
+  .company-right-column-input-text {
+    background: #F0F2F5;
+    margin-left: 10%;
+    width: 70%;
+    height: 40px;
+    border-radius: 2px;
+  }
+
+  .company-right-column-button {
+    background-color: #FFFFFF;
+    border: 0px;
+    outline: none;
+    margin-left: 3%;
+    height: 100%;
+    color: #FD4C5C;
+  }
+
+  .company-right-column-icon {
+    background-color: #FFFFFF;
+    border: 0px;
+    outline: none;
+  }
+
+  .company-right-column-share-to-social-network-text {
+    padding-bottom: 5%;
+    margin: 5% 0 0 10%;
+  }
+}
+
+.company-left-column-header {
+  padding: 3% 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 50px;
+  margin-bottom: 2%;
+  text-align: center;
+
+}
+
+.company-icon {
+  margin-left: 10%;
+  font-size: 2rem;
+  border-radius: 1px;
+  color: black;
+}
+
+
+.company-specific-address {
+  padding-bottom: 10%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.company-save-success {
+  margin-left: 10%;
+  color: green;
+}
+
+.company-footer {
+  margin-top: 5%;
+}
+
+@media (max-width:992px) {
+
+  .banner-company,
+  .company-body-content {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+
+  .company-body-content {
+    margin-top: 10px;
+  }
+
+  .company-header {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .avatar {
+      margin: 0;
+      position: static;
+    }
+
+    .info {
+      width: calc(100% - 200px);
+
+      .company-size,
+      .company-addresses,
+      .company-name,
+      .company-size-addresses {
+        display: block !important;
+        margin: 0 !important;
+        width: auto;
+      }
+
+      .company-size {
+        margin: 5px 0;
+      }
+    }
+  }
+
+  .company-recruitment {
+    padding: 10px 0 !important;
+  }
+}
+
+@media (max-width:550px) {
+  .company-header {
+    .avatar {
+      max-height: 100px;
+      max-width: 100px;
+    }
+
+    .info {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}
